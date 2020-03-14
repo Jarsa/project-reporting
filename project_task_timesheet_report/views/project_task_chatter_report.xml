@@ -19,7 +19,7 @@
                 <td><span t-esc="o.remaining_hours" t-options="{'widget': 'float_time'}"/></td>
             </tr>
         </xpath>
-        <xpath expr="//div[hasclass('page')]/center[2]" position="before">
+        <xpath expr="//div[hasclass('page')]/hr" position="after">
             <t t-if="o.timesheet_ids">
                 <table class="table table-bordered">
                     <center><h3>Timesheets</h3></center>
